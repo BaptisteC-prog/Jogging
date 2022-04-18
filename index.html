@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <title>Jogging</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="./css.css" rel="stylesheet">-->
+  <link href="./css.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/assets/icon-72x72.png" />
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" href="/assets/icon-96x96.png">
+  <meta name="apple-mobile-web-app-status-bar" content="white">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="white">
+
+  <audio id="afond">
+    <source src="afond.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="courez">
+    <source src="courez.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="GG">
+    <source src="GG.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="Happening1min">
+    <source src="Happening1min.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="Happening3min">
+    <source src="Happening3min.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="Happening10min">
+    <source src="Happening3min.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="marchez">
+    <source src="marchez.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="PSSH1min">
+    <source src="PSSH1min.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="Retour">
+    <source src="Retour.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="25pc">
+    <source src="25pc.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="50pc">
+    <source src="50pc.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="75pc">
+    <source src="75pc.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="rien">
+    <source src="rien.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="bleepo">
+    <source src="Bleep.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="coucou">
+    <source src="coucou.mp3" type="audio/mpeg">
+  </audio>
+  <!---<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.js"></script>--->
+
+</head>
+
+<body>
+  <div id="config">
+    <table>
+      <tr>
+        <td><label for="BASE">BASE :</label></td>
+        <td> <input type="number" class="configInput" id="BASE" name="BASE" value="100"></td>
+      </tr>
+      <tr>
+        <td><label for="pp">Points :</label></td>
+        <td><input type="number" class="configInput" id="pp" name="pp" value="1000"></td>
+      </tr>
+      <tr>
+        <td> <label for="easy">Pauses :</label></td>
+        <td><input type="number" class="configInput" id="easy" name="easy" value="0"></td>
+      </tr>
+      <tr>
+        <td><label for="mode">Mode :</label></td>
+        <td><input type="number" class="configInput" id="mode" name="mode" value="5" min="0" max="7"></td>
+      </tr>
+      <tr>
+        <td><label for="warmup">Warm up :</label></td>
+        <td><input type="number" class="configInput" id="warmup" name="warmup" value="15"></td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="info">
+            <ul>
+              <li>0 : defaut/legacy 18° ou plus</li>
+              <li>1: promenade 1:1 21° ou plus</li>
+              <li>2: ratio 3:1 12-15°</li>
+              <li>3: ratio 5:1 9-12°</li>
+            </ul>
+          </div>
+        </td>
+        <td>
+          <div class="info">
+            <ul>
+              <li>4: ratio 7:1 6-9°</li>
+              <li>5: ratio 10:1 (classicos) 3-6°</li>
+              <li>6: One Shot 30:1 3° ou -</li>
+              <li>7: random 15° ou plus-</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+
+
+    </table>
+    <div id="buttons">
+      <button onclick="prepa()" id="button">Ok</button>
+    </div>
+
+  </div>
+
+
+  <div id="main"></div>
+
+  <!---
+
+    -->
+
+  <div id='audioland'></div>
+  <script src="./jogging.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

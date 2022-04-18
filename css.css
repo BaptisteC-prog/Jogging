@@ -1,0 +1,168 @@
+
+body{
+	font-family: 'Folks','Myriad Pro','Arial', sans-serif;
+}
+
+button,#buttonlaunch{
+    padding:30px;
+	font-size:150%;
+}
+/*
+#buttonlaunch{
+    padding:30px;
+	font-size:200%;
+}*/
+
+.info{
+	margin-top:-30px;
+	margin-bottom:-30px;
+}
+
+.info li  {
+	margin-left:-40px;
+}
+
+#textos li{
+	margin-left:15px;
+}
+
+.configInput{
+	width:120px;
+}
+
+.info li{
+	font-size:50%
+}
+
+.afondli {
+	list-style-type:"🏃🏻‍♂️";
+}
+
+.marcherli {
+	list-style-type:"🧍🏻‍♂️";
+}
+
+.courirli {
+	list-style-type:"🚶🏻‍♂️";
+}
+
+.pauseli {
+	list-style-type:"💤";
+}
+
+#container{
+	display:flex;
+	flex-direction:row;
+}
+
+#container-haut{
+	display:flex;
+	flex-direction:row;
+	margin-bottom:-00px;
+}
+
+.speed{
+	font-size:150%;
+	font-weight: bold;
+}
+
+.finished {
+	color:#508040
+}
+
+.current{
+	text-shadow: 0px 0px 3px #e5ac00;
+	color:#806820;
+	background-color:#fff9e5;
+}
+
+div{
+	padding:10px;
+	margin:3px;
+}
+
+div .marcher {
+    border-style: dashed;
+    border-width: 3px;
+	color:#408040;
+	background-color:#60bf60;
+	background: linear-gradient(#8fbf8f, #60bf60);
+	height:300px;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+      overflow: hidden;
+	  min-width: 50px;
+}
+
+div .courir {
+    border-style: dashed;
+    border-width: 3px;
+	color:#808040;
+	background-color:#e5e573;
+	background: linear-gradient(#e5e5ac, #e5e573);
+	height:300px;
+	  writing-mode: vertical-rl;
+  text-orientation: sideways;
+      overflow: hidden;
+	  min-width: 50px;
+}
+
+div .afond {
+    border-style: dashed;
+    border-width: 3px;
+	color:#804040;
+	background-color:#bf6060;
+	background: linear-gradient(#bf8f8f, #bf6060);
+	height:300px;
+	  writing-mode: vertical-rl;
+  text-orientation: sideways;
+      overflow: hidden;
+	  min-width: 50px;
+}
+
+div .pause {
+    border-style: dashed;
+    border-width: 3px;
+	color:#404080;
+	background-color:#6060bf;
+
+	height:300px;
+	  writing-mode: vertical-rl;
+  text-orientation: sideways;
+      overflow: hidden;
+	  min-width: 50px;
+}
+
+
+
+#textos {
+	/*height:1500px;*/
+	margin-top:-30px;
+	width:1200px;
+	overflow: auto;
+	}
+
+#titre {
+	font-size:200%;
+	font-weight: bold;
+	color:#404080;
+	text-shadow: 1px 1px #6060bf;
+	margin-top:-15px;
+	margin-bottom:-30px;
+	margin-left:15px;
+	}
+
+#timing {
+	font-size:66%;
+	text-shadow:none;
+	color:#000
+}
+.purple {
+	color:#4b17e5;
+}
+
+#config,#config input{
+	font-size:36px
+}
+
+
